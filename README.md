@@ -16,7 +16,7 @@ This portfolio is designed to highlight my skills, experience, and the projects 
 
 You can view the live version of my portfolio at the following link:
 
-[**View Portfolio**](http://your-portfolio-link.com)
+[**View Portfolio**](https://richard-ochola-portfolio.vercel.app/)
 
 ## Technologies Used
 
