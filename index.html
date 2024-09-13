@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="hero-section">
+            <div class="intro-text">
+                <h1>Hello, I'm <span>Richard Ochola</span></h1>
+                <br>
+                <h3>About Me:</h3>
+                <p>A dynamic software developer who was privillaged to get accepted to the plp software development training.</p>
+                <p> I am passsionate about game development and also a blockchain enthusiast, constantly exploring the intersection between immersive virtual worlds and decentralized technologies.</p>
+                <br>
+                <a href="Images/Cv Richard Ochola Otieno..pdf" download="Richard-Ochola-CV">
+                    <button class="Down">Download CV</button>
+                </a>
+            </div>
+            <div class="top-photo">
+                <img src="Images/face.png" alt="Top Photo" height="200px"/>
+            </div>
+        </div>
+    </header>
+
+    <section class="services">
+        <h2>Background and Skills</h2>
+        <br>
+        <h3></h3>
+        
+        <div class="service-cards">
+            <div class="card">
+                <div class="icon">
+                    <img src="Images/education.png" alt="education" height="50px">
+                </div>
+                <h3>Education Background</h3>
+                <p>I am currently pursuing Civil Engineering at the Technical University of Kenya.</p>
+                <p>While my acadenmic path is Civil Engineering, my passion lies in software development, game design and blockchain technology.My background in Engineering has taught me the value of structure and precision, skills that I apply to my coding projects</p>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="Images/programming-course.png" class="icon" alt="programming" height="50px">
+                </div>
+                <h3>Programming</h3>
+                <p>I have basic knowledge on variouse programming languages such as;.</p>
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>Golang</li>
+                    <li>python</li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="Images/3d-television.png" alt="3d-model" height="50px">
+                </div>
+                <h3>Graphics design</h3>
+                <p>One of my skills is graphics design in various fields from my motivation of one day becoming a game developer. I have experience in;</p>
+                <ul>
+                    <li>Poster design</li>
+                    <li>3D-design; Achitecturial and product animation </li>
+                </ul>
+            </div>
+        </div>
+        <div class="middle-photo">
+            <img src="Images/skill-development.png" height="100px" width="100px" alt="Middle Photo" />
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <h2>Projects and Interests</h2>
+        <div class="portfolio-items">
+            <div class="card">
+                <h3>Projects</h3>
+                <ul>
+                    <li>
+                        <h4>Graphics design:
+                            <ul>
+                                <li><a href="https://www.instagram.com/">poster</a></li>
+                                <li><a href="https://www.instagram.com/">Product animation</a></li>
+                            </ul>
+                    </li>
+                    <li>
+                        <h4>Programming</h4>
+                        <ul>
+                            <li><a href="https://github.com/Reechy254/forage-jpmc-swe-task-2">opensource repository</a></li>
+                            <li><a href="https://github.com/Reechy254/simple_shell">Simple Shell in C-lang</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Interests</h3>
+                <p>I am particularly excited about the evolving landscape of game development, from creating compelling stories to desining engaging gameplay mechanics</p>
+                <p>Additionally, blockchains potential to revolutionize variouse industries fascinates me, and I am constantly seeking new ways to intergrate descentralized technology into innovative solutions</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section">
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <form class="contactForm" action="/submit-form" method="POST">
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button class="sub" type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2024 Richard Ochola Portfolio</p>
+    </footer>
+</body>
+</html>

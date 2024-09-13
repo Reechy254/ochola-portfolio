@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    padding:0px;
+    background-color: #6c63ff;
+}
+
+
+.hero-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin-top: 0;
+    
+}
+
+.intro-text {
+    max-width: 500px;
+    color: #fff;
+    margin-left: 40px;
+}
+
+.intro-text h1 {
+    font-size: 36px;
+}
+
+.intro-text span {
+    color: #ffd700;
+}
+
+.Down {
+    margin-left: 10px;
+}
+
+button{
+    background-color: #ffd700;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 20px;
+
+}
+
+.top-photo img {
+    max-width: 300px;
+    border-radius: 50%;
+    transform: scale(1.5);
+    margin-top: 20px;
+}
+
+.services {
+    padding: 50px;
+    background-color: #f9f9f9;
+    background-image: url(Images/abstract_pattern_design_background_2007.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-cards .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.service-cards .card .icon{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
+
+.middle-photo img {
+    display: block;
+    margin:  20px auto;
+    max-width: 500px;
+}
+
+.portfolio {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.portfolio h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio-items .card {
+    background-color: #6c63ff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    text-align: left;
+}
+ul{
+    margin-left: 20px;
+}
+
+.bottom-photo img {
+    display: block;
+    margin: 50px auto;
+    max-width: 500px;
+}
+
+.contact-section{
+    padding: 50px;
+    background-image: url(Images/skill.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+
+}
+
+.contact-section .contact{
+    max-width: 600px;
+    margin: 1em auto;
+    padding: 3em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ffd700;    
+    display: block;
+    background-color: #fff;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    color: black;
+}
+
+.form-group {
+    margin-bottom: 1em;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+label {
+    display: flex;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.sub{
+    width: 20%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #f10dec;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
