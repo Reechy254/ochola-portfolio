@@ -10,7 +10,7 @@ body {
 
 .header {
     padding: 0;
-    background-color: #6c63ff;
+    background-color: #1E90FF ;
 }
 
 .hero-section {
@@ -115,7 +115,7 @@ button {
 }
 
 .portfolio-items .card {
-    background-color: #6c63ff;
+    background-color: #1E90FF ;
     color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -135,12 +135,15 @@ ul {
     max-width: 100%;
     height: auto;
 }
-
+li a{
+    color: #ffd700;
+}
 .contact-section {
     padding: 50px;
-    background-image: url(Images/skill.jpg);
+    background-image: url(Images/skill.png);
     background-size: contain;
     background-repeat: repeat;
+    background-color: #1E90FF ;
 }
 
 .contact-section .contact {
@@ -148,7 +151,7 @@ ul {
     margin: 1em auto;
     padding: 3em;
     border-radius: 8px;
-    box-shadow: 0 0 10px #ffd700;
+    box-shadow: 0 0 2px #ffd700;
     display: block;
     background-color: #fff;
 }
