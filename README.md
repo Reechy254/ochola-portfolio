@@ -1,4 +1,4 @@
-# My Portfolio
+# Richard Ochola Portfolio
 
 Welcome to my personal portfolio! This repository showcases my work and provides information about my skills and projects.
 
@@ -20,7 +20,18 @@ You can view the live version of my portfolio at the following link:
 
 ## Technologies Used
 
-- HTML5
-- CSS3
+- Next.js
+- React
+- CSS
 
+## Getting Started
+
+Install dependencies and start the development server:
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
